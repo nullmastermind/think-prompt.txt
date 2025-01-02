@@ -1,0 +1,13 @@
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sublime-workspace
+*.sublime-project
