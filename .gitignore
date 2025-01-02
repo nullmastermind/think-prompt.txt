@@ -10,4 +10,20 @@
 *.userosscache
 *.sln.docstates
 *.sublime-workspace
+
+# Node.js & TypeScript
+node_modules/
+dist/
+build/
+coverage/
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+.npm
+.eslintcache
 *.sublime-project
