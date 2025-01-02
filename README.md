@@ -1,12 +1,20 @@
 # think-prompt.txt
 
+```typescript
+import thinkPrompt from 'think-prompt.txt/prompt/latest.json';
+
+console.log(thinkPrompt.value);
+```
+
+### Development
+
 To install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+To build:
 
 ```bash
 bun run build.ts
