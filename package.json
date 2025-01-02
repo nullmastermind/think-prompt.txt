@@ -1,9 +1,15 @@
 {
+  "version": "1.0.0",
   "name": "think-prompt.txt",
   "module": "build.ts",
   "type": "module",
+  "scripts": {
+    "build": "bun run build.ts"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "^1.1.14",
+    "@types/node": "^22.10.3",
+    "prettier": "^3.4.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
